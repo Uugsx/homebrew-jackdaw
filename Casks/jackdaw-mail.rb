@@ -20,7 +20,7 @@ cask "jackdaw-mail" do
 
   zap trash: [
     "~/Library/Application Support/Jackdaw Mail",
-    "~/Library/Preferences/app.jackdaw.mail.plist",
+    "~/Library/Preferences/app.jackdaw.client.plist",
   ]
 
   caveats <<~EOS
